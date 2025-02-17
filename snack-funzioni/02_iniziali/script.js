@@ -5,6 +5,16 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 
+function firstWord (arr){
+    let firstWordList = []
+    for (let i = 0; i< arr.length; i++){
+       const thisElement = arr[i];
+       const firstElementWord = thisElement.charAt(0)
+       firstWordList.push(firstElementWord) 
+    }
+    return firstWordList
+}
+console.log(firstWord(names));
 
 // Invoca la funzione qui e stampa il risultato in console
 
