@@ -17,7 +17,7 @@ function countVocals (word){
 
 // Invoca la funzione qui e stampa il risultato in console
 
-console.log(countVocals('word'));
+console.log(countVocals(word));
  
 
 //Risultato atteso se si passa 'javascript': 3 (a, a, i)
