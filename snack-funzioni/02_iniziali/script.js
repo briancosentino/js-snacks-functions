@@ -14,9 +14,9 @@ function firstWord (arr){
     }
     return firstWordList
 }
-console.log(firstWord(names));
 
 // Invoca la funzione qui e stampa il risultato in console
+console.log(firstWord(names));
 
 
 
